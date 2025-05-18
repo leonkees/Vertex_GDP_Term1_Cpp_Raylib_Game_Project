@@ -1,0 +1,13 @@
+WK 4 Challenges  : 
+Find the bugs  -- there are a couple 
+
+Space out the lines of text 
+
+Parry system doesn't really work very well -- we should review our game design 
+
+
+WK 5 
+-----------------------------------
+Leveling up the Hero 
+Enemies drop a random items from a loot table 
+	-- Item has random properties 

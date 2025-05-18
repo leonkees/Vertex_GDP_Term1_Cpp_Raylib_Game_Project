@@ -1,0 +1,37 @@
+Game Structure:
+
+Inheritance:
+We will learn about this concept :) 
+
+Character: 
+Health System
+--- Health Amount 
+--- IsAlive ? 
+--- Take Damage
+--- Heal ? 
+-- Attack Damage Value **
+-- Defense **
+
+
+Player:
+The player has 3 lives.
+Player can select between Attack, Parry, and Defend.  <-- Cin
+
+Enemy:
+Enemies will have increasing difficulty and life.
+Each enemy has their own health and might choose between the same three actions: Attack, Parry, and Defend.  -- ??
+
+
+Game Loop:
+Each round, the player and the enemy select an action.
+The game evaluates the result of the round based on the selected actions.
+Player wins by surviving as long as possible in the dueling arena.
+Game gets harder as the player defeats more enemies (increase enemy difficulty).
+
+Game Mechanics:
+Attack vs. Attack: Clash (optional fun mechanic to make this interesting).
+Attack vs. Parry: Counter-attack, attacker takes 2 damage.
+Attack vs. Defend: Whoever defended takes half damage.
+
+The goal is to survive by choosing wisely against tougher enemies.
+
